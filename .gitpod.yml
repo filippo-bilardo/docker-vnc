@@ -1,0 +1,8 @@
+image:
+  file: .dockerfile
+ports:
+  - port: 6080
+    protocol: "http"
+    onOpen: open-browser
+tasks:
+  - command: "clear"
